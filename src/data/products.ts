@@ -31,7 +31,7 @@ export const products: Product[] = [
   {
     name: "Cola",
     description: "Classic cola character with a refreshing sparkle.",
-    image: "/assets/cola.png",
+    image: "/assets/cola.png?v=2",
     accent: "cola",
     accentVar: "var(--flavour-cola)",
   },
