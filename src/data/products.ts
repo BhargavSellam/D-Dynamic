@@ -14,13 +14,6 @@ export type Product = {
 };
 
 export const products: Product[] = [
-  { name: "Lime", description: "A lively citrus twist with a crisp, refreshing finish.", image: lime.url, accent: "lime", accentVar: "var(--flavour-lime)" },
-  { name: "Orange", description: "Bright orange flavour with a bold, bubbly punch.", image: orange.url, accent: "orange", accentVar: "var(--flavour-orange)" },
-  { name: "Cola", description: "Classic cola character with a refreshing sparkle.", image: cola.url, accent: "cola", accentVar: "var(--flavour-cola)" },
-  { name: "Grape", description: "Rich, fruity grape flavour with an exciting fizz.", image: grape.url, accent: "grape", accentVar: "var(--flavour-grape)" },
-  { name: "Mango", description: "A sunny tropical mango flavour for a refreshing escape.", image: mango.url, accent: "mango", accentVar: "var(--flavour-mango)" },
-  { name: "Original Soda", description: "Classic sparkling refreshment with a clean, crisp finish.", image: null, accent: "original", accentVar: "var(--flavour-original)" },
-];export const products: Product[] = [
   {
     name: "Lime",
     description: "A lively citrus twist with a crisp, refreshing finish.",
