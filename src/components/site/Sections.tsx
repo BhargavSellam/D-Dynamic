@@ -1,5 +1,4 @@
-import allFlavours from "@/assets/all-flavours.png.asset.json";
-import logo from "@/assets/d-dynamic-soda-logo.png.asset.json";
+
 import { company, navLinks, openEnquiry, products, type Product } from "@/data/products";
 import { Bubbles, Reveal } from "./Reveal";
 
@@ -20,7 +19,7 @@ export function Hero() {
         </div>
         <div className="hero-in mt-10 [animation-delay:200ms]">
           <img
-            src={allFlavours.url}
+            src="/assets/all-flavours.png"
             alt="Six D Dynamic Soda bottles in a row: Lime, Orange, Cola, Grape, Mango and Original Soda"
             width={1774}
             height={887}
@@ -96,7 +95,7 @@ export function About() {
     <section id="about" className="border-y bg-surface py-20 sm:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
         <Reveal className="flex justify-center">
-          <img src={logo.url} alt="D Dynamic Soda emblem" width={482} height={482} loading="lazy" className="w-56 max-w-full rounded-full object-contain shadow-[var(--shadow-glow)] sm:w-72" />
+          <img src="/assets/d-dynamic-soda-logo.png" alt="D Dynamic Soda emblem" width={482} height={482} loading="lazy" className="w-56 max-w-full rounded-full object-contain shadow-[var(--shadow-glow)] sm:w-72" />
         </Reveal>
         <Reveal delay={120}>
           <p className="eyebrow">About Us</p>
@@ -148,7 +147,7 @@ export function Footer() {
     <footer className="border-t bg-surface">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
         <div>
-          <img src={logo.url} alt="D Dynamic Soda logo" width={64} height={64} loading="lazy" className="h-16 w-16 object-contain" />
+          <img src="/assets/d-dynamic-soda-logo.png" alt="D Dynamic Soda logo" width={64} height={64} loading="lazy" className="h-16 w-16 object-contain" />
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">Bold flavoured drinks and sparkling soda. Feel the punch.</p>
         </div>
         <nav aria-label="Footer">

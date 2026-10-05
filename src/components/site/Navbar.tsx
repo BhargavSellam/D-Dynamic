@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "@/assets/d-dynamic-soda-logo.png.asset.json";
+
 import { navLinks, openEnquiry } from "@/data/products";
 
 export function Navbar() {
@@ -40,7 +40,7 @@ export function Navbar() {
     <header className={`sticky top-0 z-50 transition-colors ${scrolled || open ? "bg-background/90 backdrop-blur-md border-b" : "bg-transparent"}`}>
       <nav aria-label="Main" className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20">
         <a href="#home" className="flex shrink-0 items-center gap-3" aria-label="D Dynamic Soda home">
-          <img src={logo.url} alt="D Dynamic Soda logo" width={48} height={48} className="h-11 w-11 object-contain lg:h-12 lg:w-12" />
+          <img src="/assets/d-dynamic-soda-logo.png" alt="D Dynamic Soda logo" width={48} height={48} className="h-11 w-11 object-contain lg:h-12 lg:w-12" />
           <span className="font-display text-lg tracking-wide hidden sm:inline">D DYNAMIC SODA</span>
         </a>
         <ul className="hidden items-center gap-6 xl:flex">
